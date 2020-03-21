@@ -16259,7 +16259,7 @@
                         {
                             window.open("https://playdauntless.com/patch-notes/", "_blank"), ga("send", "event", "Version", "Version", "Version")
                         }
-                    }, "1.1.0"), r.a.createElement("div",
+                    }, "1.2.0"), r.a.createElement("div",
                     {
                         className: "privacy",
                         onClick: function()
