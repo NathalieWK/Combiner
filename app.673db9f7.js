@@ -6883,14 +6883,14 @@
 			128: "Electric Cruelties",
 			129: "Galvanic Impact",
 			130: "Terminal Voltage",
-			131: "The Conductor"
+			131: "The Conductor",
 			132: "Mistral Currents",
-			133:"Incinerator's Song",
-			134:"Magma Quake",
-			135:"Pyroclastic Envoy",
-			136:"Scorching Agonies",
-			137:"Tectonic Faults",
-			138:"The Cauterizer"
+			133: "Incinerator's Song",
+			134: "Magma Quake",
+			135: "Pyroclastic Envoy",
+			136: "Scorching Agonies",
+			137: "Tectonic Faults",
+			138: "The Cauterizer"
         }
     }
 }, function(n, e, t)
