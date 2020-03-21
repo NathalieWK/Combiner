@@ -954,6 +954,13 @@
 				perks: "Grace",
                 cells: "Mobility"
             }, {
+                name: "Torgadoro's Apex",
+                type: "Head",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosApex.png",
+                monster: "torgadoro",
+				perks: "Zeal",
+                cells: "Utility"
+            }, {
                 name: "The Skullforge",
                 type: "Head",
                 icon: "/assets/icons/armours/charrogg/TheSkullforge.png",
@@ -1118,6 +1125,13 @@
 				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
+                name: "Torgadoro's Core",
+                type: "Torso",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosCore.png",
+                monster: "torgadoro",
+				perks: "Knockout King",
+                cells: "Power"
+            }, {
                 name: "Volcanic Aegis",
                 type: "Torso",
                 icon: "/assets/icons/armours/charrogg/VolcanicAegis.png",
@@ -1264,6 +1278,13 @@
 				perks: "Predator",
                 cells: "Technique"
             }, {
+                name: "Torgadoro's Brawn",
+                type: "Arms",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosBrawn.png",
+                monster: "torgadoro",
+				perks: "Overpower",
+                cells: "Power"
+            }, {
                 name: "Volcanic Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/charrogg/VolcanicGrips.png",
@@ -1409,6 +1430,13 @@
                 monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
+            }, {
+                name: "Torgadoro's Gait",
+                type: "Legs",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosGait.png",
+                monster: "torgadoro",
+				perks: "Knockout King",
+                cells: "Power"
             }, {
                 name: "Volcanic Treads",
                 type: "Legs",
@@ -1774,6 +1802,10 @@
                 name: "Vampiric Cell",
                 perk: "Vampiric",
                 slot: "Utility"
+            },{
+                name: "Zeal Cell",
+                perk: "Zeal",
+                slot: "Utility"
             }]
         },
         perks: {
@@ -1941,6 +1973,9 @@
             },
             "Wild Frenzy": {
                 type: "Technique"
+            },
+            Zeal: {
+                type: "Utility"
             }
         }
     }
@@ -2120,7 +2155,8 @@
                     Vampiric: 0,
                     Warmth: 0,
                     "Weighted Strikes": 0,
-                    "Wild Frenzy": 0
+                    "Wild Frenzy": 0,
+					Zeal: 0
                 }
             }
         }, {

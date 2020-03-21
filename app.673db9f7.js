@@ -1081,6 +1081,13 @@
 				perks: "Grace",
                 cells: "Mobility"
             }, {
+                name: "Torgadoro's Apex",
+                type: "Head",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosApex.png",
+                monster: "torgadoro",
+				perks: "Zeal",
+                cells: "Utility"
+            }, {
                 name: "The Skullforge",
                 type: "Head",
                 icon: "/assets/icons/armours/charrogg/TheSkullforge.png",
@@ -1245,6 +1252,13 @@
 				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
+                name: "Torgadoro's Core",
+                type: "Torso",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosCore.png",
+                monster: "torgadoro",
+				perks: "Knockout King",
+                cells: "Power"
+            }, {
                 name: "Volcanic Aegis",
                 type: "Torso",
                 icon: "/assets/icons/armours/charrogg/VolcanicAegis.png",
@@ -1391,6 +1405,13 @@
 				perks: "Predator",
                 cells: "Technique"
             }, {
+                name: "Torgadoro's Brawn",
+                type: "Arms",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosBrawn.png",
+                monster: "torgadoro",
+				perks: "Overpower",
+                cells: "Power"
+            }, {
                 name: "Volcanic Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/charrogg/VolcanicGrips.png",
@@ -1536,6 +1557,13 @@
                 monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
+            }, {
+                name: "Torgadoro's Gait",
+                type: "Legs",
+                icon: "/assets/icons/armours/torgadoro/TorgadorosGait.png",
+                monster: "torgadoro",
+				perks: "Knockout King",
+                cells: "Power"
             }, {
                 name: "Volcanic Treads",
                 type: "Legs",
@@ -1958,6 +1986,11 @@
                 name: "Vampiric Cell",
                 perk: "Vampiric",
                 slot: "Utility"
+            },
+            {
+                name: "Zeal Cell",
+                perk: "Zeal",
+                slot: "Utility"
             }]
         },
         perks:
@@ -2177,6 +2210,10 @@
             "Wild Frenzy":
             {
                 type: "Technique"
+            },
+            Zeal:
+            {
+                type: "Utility"
             }
         }
     }
@@ -6392,7 +6429,11 @@
 			84: "Malkarion's Grasp",
 			85: "Malkarion's March",
 			86: "Malkarion's Sight",
-			87: "Malkarion's Soul"
+			87: "Malkarion's Soul",
+			88: "Torgadoro's Apex",
+			89: "Torgadoro's Brawn",
+			90: "Torgadoro's Core",
+			91: "Torgadoro's Gait"
         },
         Cells:
         {
@@ -6560,7 +6601,10 @@
 			162: "+3 Mender Cell",
 			163: "+1 Grace Cell",
 			164: "+2 Grace Cell",
-			165: "+3 Grace Cell"
+			165: "+3 Grace Cell",
+			166: "+1 Zeal Cell",
+			167: "+2 Zeal Cell",
+			168: "+3 Zeal Cell"
         },
         Lanterns:
         {
@@ -6704,7 +6748,8 @@
             52: "Discipline",
             53: "Mender",
 			54: "Sprinter",
-			55: "Grace"
+			55: "Grace",
+			56: "Zeal"
         },
         Weapons:
         {
@@ -6839,6 +6884,13 @@
 			129: "Galvanic Impact",
 			130: "Terminal Voltage",
 			131: "The Conductor"
+			132: "Mistral Currents",
+			133:"Incinerator's Song",
+			134:"Magma Quake",
+			135:"Pyroclastic Envoy",
+			136:"Scorching Agonies",
+			137:"Tectonic Faults",
+			138:"The Cauterizer"
         }
     }
 }, function(n, e, t)
@@ -14768,7 +14820,8 @@
                         Vampiric: 0,
                         Warmth: 0,
                         "Weighted Strikes": 0,
-                        "Wild Frenzy": 0
+                        "Wild Frenzy": 0,
+						Zeal: 0
                     }
                 }
             },
